@@ -3,7 +3,7 @@ Color transfer between images
 
 There are 2 implementations of <code>color_transfer</code>:
 1. Color Transfer between Images by Reinhard et al. (2001). The algorithm itself is extremely efficient (much faster than histogram based methods), requiring only the mean and standard deviation of pixel intensities for each channel in the L\*a\*b\* color space.
-2. Image Style Transfer Using Convolutional Neural Networks by Gatys et al. (2016).A pre-trained VGG-19 network is used as a feature extractor for the content and style images via correlations betwen the different filter responses over the spatal extent of the respective feature maps. Tuning the hyperparameters drastically will yield effects similar to color transfer results by Reinhard et al.
+2. Image Style Transfer Using Convolutional Neural Networks by Gatys et al. (2016). A pre-trained VGG-19 network is used as a feature extractor for the content and style images via correlations betwen the different filter responses over the spatal extent of the respective feature maps. Tuning the hyperparameters drastically will yield effects similar to color transfer results by Reinhard et al.
 
 # Requirements
 - opencv
