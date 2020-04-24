@@ -1,6 +1,7 @@
 # import the necessary packages
 import numpy as np
 import cv2
+from . import neural_network_color_transfer
 
 def color_transfer(source, target, clip=True, preserve_paper=True):
 	"""
