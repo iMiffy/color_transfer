@@ -15,15 +15,6 @@ There are 2 implementations of <code>color_transfer</code>:
 #Examples
 Below are some example showing how to run the <code>main.py</code> and the associated color transfers between images.
 
-<code>$ python example.py --source images/autumn.jpg --target images/fallingwater.jpg</code>
-![Autumn and Fallingwater screenshot](docs/images/autumn_fallingwater.png?raw=true)
-
-<code>$ python example.py --source images/woods.jpg --target images/storm.jpg</code>
-![Woods and Storm screenshot](docs/images/woods_storm.png?raw=true)
-
-<code>$ python example.py --source images/ocean_sunset.jpg --target images/ocean_day.jpg</code>
-![Sunset and Ocean screenshot](docs/images/sunset_ocean.png?raw=true)
-
 <code>$ python main.py --source images/autumn.jpg --target images/fallingwater.jpg --mode reinhard --output output/autumn_water_reinhard.jpg</code>
 <code>$ python main.py --source images/autumn.jpg --target images/fallingwater.jpg --mode vgg --out-size 1000 --output output/autumn_water_vgg.jpg</code>
 
